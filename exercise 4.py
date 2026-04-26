@@ -46,4 +46,4 @@ else:
         print("Mode: No mode (all numbers appear once)")
     else:
         modes = [num for num, freq in frequency.items() if freq == max_freq]
-        print("Mode:", modes)
+    #     print("Mode:", modes)
